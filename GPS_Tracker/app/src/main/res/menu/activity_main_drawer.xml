@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/mapsFragment"
+            android:icon="@drawable/ic_baseline_location_on_24"
+            android:title="Location" />
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home"
+            android:title="Information" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/informationbutton"
+            android:title="About Me" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/analytics"
+            android:title="Analytics" />
+    </group>
+</menu>
